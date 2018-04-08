@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbgirl
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      #ddl-auto: create  # 每次创建都创建一张新的表。会将之前创建的同名表删除
+      ddl-auto: update  # 首次创建都创建一张新的表，之后将表的数据进行更新。
+    show-sql: true
+
