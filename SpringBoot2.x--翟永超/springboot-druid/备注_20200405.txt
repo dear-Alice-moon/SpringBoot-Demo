@@ -1,0 +1,14 @@
+
+1、本项目来源地址：http://blog.didispace.com/spring-boot-learning-21-3-3/
+
+2、实际程序运行见 DruidApplication.java 文件，测试CRUD接口可参见《接口测试文件_2020-04-06.doc》Word文档。
+
+3、Druid的监控页面，访问路径：http://localhost:8080/druid/ ， 账号/密码：admin/admin， 账号密码来源于application.properties配置文件.
+
+
+4、参考文章：https://blog.csdn.net/u010412719/article/details/69788227,
+             https://www.cnblogs.com/sunshouguo/articles/10813320.html
+
+   https://blog.csdn.net/whyistao/article/details/50678605
+
+
